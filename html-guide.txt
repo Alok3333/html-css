@@ -1,0 +1,33 @@
+Table in html
+----Structure of Table
+----------------
+1 . method
+    =>Table
+        ->caption
+        =>tr (table row)
+            ->th (table heading)
+            ->td (table data)
+-----------------
+2 . => table
+    =>thead - it cover upper portion of table
+        ->tr
+        ->th
+    =>tbody - it cover middle portion of table
+        ->tr
+        ->td
+    =>tfoot - it cover bottom portion of table
+        ->tr
+        ->th
+------------------
+List of property in html table tr, th, td
+    ->align
+    ->border
+    ->cellpadding - it apply space inside th & td
+    ->cellspacing - it apply space outside of th & td
+    ->width - th & td
+    ->height - table, tr, th, td
+    ->bordercolor
+    ->bgcolor
+    ->colspan - it use to combine space of 2 or more th & td
+    ->rowspan - it use to combine space of 2 or more tr
+-------------------
