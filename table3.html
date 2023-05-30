@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table3</title>
+  </head>
+  <body>
+    <h1 align="center">Table colspan/rowspan example</h1>
+    <table align="center" cellpadding="10" cellspacing="0" border="1" width="60%">
+      <thead>
+        <tr bgcolor="orange">
+          <th>S1 No</th>
+          <th>Full Name</th>
+          <th>Mobile No</th>
+          <th>City</th>
+          <th>Education</th>
+          <th>Year of Passing</th>
+          <th>Entry Date</th>
+          <th>University</th>
+        </tr>
+      </thead>
+
+      <tbody align="center">
+        <tr>
+          <td>01</td>
+          <td>Alok k</td>
+          <td>97834848487</td>
+          <td>Bangalore</td>
+          <td>BCA</td>
+          <td>2021</td>
+          <td rowspan="8" valign="middle">04/05/2023</td>
+          <td rowspan="4"><b>University of Bangaluru</b></td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Rahul</td>
+            <td>345354656667</td>
+            <td>Mumbai</td>
+            <td>MBA</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Jhon</td>
+            <td>56575645545</td>
+            <td>USA</td>
+            <td>Coding</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Alex</td>
+            <td colspan="2">342773984773</td>
+            <td rowspan="2">M.Tech</td>
+            <td>2021</td>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>Arun</td>
+            <td>342773984773</td>
+            <td>Lucknow</td>
+            <td>2022</td>
+            <td rowspan="4"><b>University of IT Mumbai</b></td>
+        </tr>
+        <tr>
+            <td>06</td>
+            <td>Mahesh</td>
+            <td>224348358990</td>
+            <td colspan="3">Bangalore</td>
+        </tr>
+        <tr>
+            <td>07</td>
+            <td>Krishna</td>
+            <td>495940890880</td>
+            <td>Nagpur</td>
+            <td rowspan="2">B.Tech</td>
+            <td>2012</td>
+        </tr>
+        <tr><td>08</td>
+            <td>Aman</td>
+            <td>495940890880</td>
+            <td>Mumbai</td>
+            <!-- <td>B.Tech</td> -->    
+            <td>2014</td></tr>
+      </tbody>
+
+      <tfoot>
+        <tr bgcolor="pink">
+          <th>S1 No</th>
+          <th>Full Name</th>
+          <th>Mobile No</th>
+          <th>City</th>
+          <th>Education</th>
+          <th>Year of Passing</th>
+          <th>Entry Date</th>
+          <th>University</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
