@@ -31,3 +31,20 @@ List of property in html table tr, th, td
     ->colspan - it use to combine space of 2 or more th & td
     ->rowspan - it use to combine space of 2 or more tr
 -------------------
+
+List of input tags
+    ->text
+    ->number
+    ->password
+    ->email
+    ->file
+    ->date
+    ->datetime-local
+    ->checkbox
+    ->radio
+    ->textarea
+    ->select
+    ->button
+        =>button
+        =>submit
+        =>reset
