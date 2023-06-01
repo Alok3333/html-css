@@ -48,3 +48,17 @@ List of input tags
         =>button
         =>submit
         =>reset
+
+----------------------
+
+List of property of input tags
+    ->placeholder - it is for input guidance.
+    ->maxlength - it use to input limit in - text, email, password, textarea.
+    ->size - it use to reset the width of - text, email, pwd.
+    ->rows - it use to set height of textarea
+    ->cols - it use to set width of textarea
+    ->value - it use to display default value in - text, email, password, number, checkbox, radio.
+    ->readonly - it will make input element readonly.
+    ->disabled - it disabled / block the input tags.
+
+-----------------------
