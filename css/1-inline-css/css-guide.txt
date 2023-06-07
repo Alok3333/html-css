@@ -1,0 +1,51 @@
+CSS - Cascading Style Sheet.
+    The css has collection of property and values. This property & value use to change
+    look and feel of webpage.
+
+=> How it work?
+    Responsive webpage = HTML(tags) + CSS(property & values)
+
+=> Method to write CSS?
+    ->Total using 4 methods
+        1. inline css - (very very less in use)
+        2. internal css
+        3. external css
+        4. import css - (very very less in use)
+
+=> Syntax for inline CSS ?
+    <tagname style="property: value; property: value;">
+        Contents to display
+    </tagname>
+
+    Ex :- 
+        <p style="color: red; height:200px; width: 400px; background: red;">
+            welcome to bangalore
+        </p>
+
+    Note :- Before : is property and after : is value
+--------------------------
+    List of property
+        height - 3 methods
+        width - 4 methods
+        background - 9 methods
+        float - it use to convert from block level tag to inline tag
+            float: left; - it prints left to right in same line
+            float: right; - it prints right to left in same line
+
+        margin - it apply space outside of the tag
+            margin: auto; - it print in center of area
+            margin: 30px; - it apply 30px gap from all side
+            margin-left: 30px; - it apply 30px gap from left side
+            margin-right: 40px; - it apply 40px gap from right side
+            margin-bottom: 20px; - it apply 20px gap from bottom side
+            margin-top: 30px; - it apply 30px gap from top side
+            margin: top left-right bottom - short code
+
+        padding - it apply space inside of container
+            padding: 10px; - it aaply 10px gap from all side
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding: top left-right bottom;
+------------------------------------------------------
