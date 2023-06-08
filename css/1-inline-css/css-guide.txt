@@ -26,8 +26,28 @@ CSS - Cascading Style Sheet.
 --------------------------
     List of property
         height - 3 methods
+            =>height: 100px; - it fixed for min and max
+            =>min-height: 100px; - The min height fixed & max is based on contents
+            =>height: auto; - its fully based on contents
+
         width - 4 methods
+            =>width: 150px; - it's fixed
+            =>width: 20%; - it is based on screen width
+            =>min-width: 20px or % - it use to set min width for element 
+            =>max-width: 20% or px - it use to set max width for element
+
         background - 9 methods
+            =>background: red;
+            =>background-color: red;
+            =>background-color: rgb(100, 200, 50);
+            =>background-color: rgba(100, 200, 50, 0.5)
+            =>background-image: url("1.jpg");
+            =>background-image: linear-gradient(red, blue, green);
+            =>background-image: linear-gradient(to left, red, blue, green);
+            =>background-image: linear-gradient(to right, red, blue, green);
+            =>background-image: linear-gradient(to top, red, blue, green);
+            =>background-image: linear-gradient(to bottom, red, blue, green);
+
         float - it use to convert from block level tag to inline tag
             float: left; - it prints left to right in same line
             float: right; - it prints right to left in same line
