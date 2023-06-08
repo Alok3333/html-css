@@ -48,4 +48,7 @@ CSS - Cascading Style Sheet.
             padding-right: 10px;
             padding-bottom: 10px;
             padding: top left-right bottom;
+
+        Note - padding apply space inside of container
+               where margin apply space outside of container
 ------------------------------------------------------
