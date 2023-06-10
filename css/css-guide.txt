@@ -72,3 +72,39 @@ CSS - Cascading Style Sheet.
         Note - padding apply space inside of container
                where margin apply space outside of container
 ------------------------------------------------------
+
+    => In inline css ?
+        ->It is 1 to 1 - write css code 1 time and use max 1 time in html.
+        ->Because of 1 to 1, code duplicate will happen
+        ->If code is duplicate then file modification may be complex.
+        ->File weight will increase.
+        ->It consume more internet data.
+        ->Page loading may take long time.
+        ->User experience may be bad.
+        ->Google reject from google search index.
+
+-------------------------------------------------------------
+    => In internal css
+        ->It is 1 to many(write a code 1 time and use many time)
+        Syntax to write internal css?
+        selector {
+            property1: value1;
+            property2: value2;
+            property3: value3;
+        }
+        Example :-
+            p {
+                background: red;
+                padding: 50px;
+                float: left;
+                margin: 30px;
+            }
+
+    =>  The css has given following method to write css 1 to many
+        1. css for tag name    - example2.html
+        2. css for tag group   - example3.html
+        3. css for id          - example4.html
+        4. css for class       - example5.html
+        5. css for parent & child tag - example6.html
+        6. css for attribute          - example7.html
+--------------------------------------------------------------
