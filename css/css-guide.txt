@@ -102,7 +102,20 @@ CSS - Cascading Style Sheet.
 
     =>  The css has given following method to write css 1 to many
         1. css for tag name    - example2.html
+            Example :- 
+                p{
+                    background: orange;
+                    float: left;
+                    width: 20px;
+                    height: 200px;
+                }
         2. css for tag group   - example3.html
+            Example :-
+                h1, h2, p, b, label, div {
+                    background: lightcoral;
+                    font-size: 60px;
+                    font-style: italic;
+                }
         3. css for id          - example4.html
         4. css for class       - example5.html
         5. css for parent & child tag - example6.html
