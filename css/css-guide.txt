@@ -109,6 +109,7 @@ CSS - Cascading Style Sheet.
                     width: 20px;
                     height: 200px;
                 }
+        =============================================
         2. css for tag group   - example3.html
             Example :-
                 h1, h2, p, b, label, div {
@@ -116,7 +117,17 @@ CSS - Cascading Style Sheet.
                     font-size: 60px;
                     font-style: italic;
                 }
+        ==============================================
         3. css for id          - example4.html
+            Example :-
+                #block1 {
+                    padding: 30px;
+                    background: blue;
+                    color: white;
+                    font-size: 50px;
+                    text-align: center;
+                }
+        ===============================================
         4. css for class       - example5.html
         5. css for parent & child tag - example6.html
         6. css for attribute          - example7.html
