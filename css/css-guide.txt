@@ -152,9 +152,13 @@ CSS - Cascading Style Sheet.
         ================================================
         6. css for attribute          - example7.html
             Example :- 
-                input[type='number'] {
+                input[type='number'] 
+                {
                     height: 30px;
                     width: 200px;
                     font-size: 20px;
                 }
 --------------------------------------------------------------
+Continue of property & values
+    -> border-radius
+       border-radius: topleft topright bottomright bottomleft
