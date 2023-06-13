@@ -129,6 +129,32 @@ CSS - Cascading Style Sheet.
                 }
         ===============================================
         4. css for class       - example5.html
+            Example :-
+                .block2 {
+                    margin: 2%;
+                    width: 21%;
+                    background: orange;
+                    font-size: 40px;
+                    text-align: center;
+                    padding-top: 70px;
+                    padding-bottom: 70px;
+                    float: left;
+                }
+        ===============================================
         5. css for parent & child tag - example6.html
+            Example :- 
+                header ul li {
+                    font-size: 25px;
+                    color: white;
+                    display: inline-block;
+                    padding: 30px;
+                }
+        ================================================
         6. css for attribute          - example7.html
+            Example :- 
+                input[type='number'] {
+                    height: 30px;
+                    width: 200px;
+                    font-size: 20px;
+                }
 --------------------------------------------------------------
