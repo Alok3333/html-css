@@ -162,3 +162,11 @@ CSS - Cascading Style Sheet.
 Continue of property & values
     -> border-radius
        border-radius: topleft topright bottomright bottomleft
+--------------------------------------------------------------
+display
+    display: inline; (it covert from block level to inline, where width will not work)
+    display: inline-block; (it covert from block level to inline, where width will work)
+    display: grid;
+    display: flex;
+    display: none;
+--------------------------------------------------------------
