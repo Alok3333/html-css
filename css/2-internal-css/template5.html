@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      @keyframes mybanner {
+        25% {
+          background-image: url('./images/a.webp');
+          font-size: 40px;
+        }
+        50% {
+          background-image: url('./images/image1.jpeg');
+          font-size: 70px;
+        }
+        75% {
+          background-image: url('./images/image2.jpg');
+          font-size: 90px;
+        }
+      }
+
+      #banner {
+        height: 200px;
+        background-image: url(./images/image3.jpg);
+        padding: 100px;
+        text-align: center;
+        font-size: 100px;
+        color: #fff;
+        animation: mybanner;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+
+      ul {
+        margin: 0;
+        background-color: purple;
+        top: 0px;
+        position: sticky;
+      }
+
+      ul li {
+        display: inline-block;
+        padding: 20px 40px 20px;
+        color: #fff;
+        font-size: 22px;
+      }
+
+      ul li:hover {
+        background: red;
+        cursor: pointer;
+      }
+
+      #container {
+        width: 80%;
+        margin: auto;
+      }
+
+      h1 {
+        text-align: center;
+        color: green;
+        font-size: 70px;
+      }
+
+      #service {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      }
+
+      #service p {
+        font-size: 30px;
+        color: blue;
+        cursor: pointer;
+      }
+
+      #service p:hover {
+        color: red;
+      }
+
+      footer {
+        background: darkcyan;
+        padding: 30px;
+        height: 150px;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Our Services</li>
+      <li>Login</li>
+      <li>Register</li>
+      <li>Enquiry</li>
+      <li>Our Product</li>
+    </ul>
+    <section id="banner">CSS Animation Example</section>
+
+    <section id="container">
+      <h1>Welcome To UI Master</h1>
+      <p>
+        A paragraph is a small body of text within a larger body that revolves
+        around one particular main idea. The TextParagraph widget displays a
+        paragraph of text with optional simple HTML formatting. For example:
+        Display bold, underlined, or italicized text
+      </p>
+      <p>
+        A paragraph is a small body of text within a larger body that revolves
+        around one particular main idea. The TextParagraph widget displays a
+        paragraph of text with optional simple HTML formatting. For example:
+        Display bold, underlined, or italicized text
+      </p>
+
+      <h1>Our Best Services</h1>
+      <div id="service">
+        <p>Employment</p>
+        <p>Education</p>
+        <p>Services</p>
+        <p>B2B Service</p>
+        <p>Content Writing</p>
+        <p>Digital Marketing</p>
+        <p>Website Development</p>
+        <p>Logo Design</p>
+        <p>Mobile App Development</p>
+        <p>Other Services</p>
+      </div>
+    </section>
+    <footer>Help line no - 9888676765 - 24/7</footer>
+  </body>
+</html>

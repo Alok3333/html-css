@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      @keyframes mybanner {
+        25% {
+          background-image: url('./images/a.webp');
+          font-size: 40px;
+        }
+        50% {
+          background-image: url('./images/image1.jpeg');
+          font-size: 70px;
+        }
+        75% {
+          background-image: url('./images/image2.jpg');
+          font-size: 90px;
+        }
+      }
+
+      #banner {
+        height: 200px;
+        background-image: url(./images/image3.jpg);
+        padding: 100px;
+        text-align: center;
+        font-size: 100px;
+        color: #fff;
+        animation: mybanner;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="banner">CSS Animation Example</section>
+  </body>
+</html>

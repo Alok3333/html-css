@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+
+      @keyframes mybanner{
+        25%{
+            background-color: red;
+            font-size: 40px;
+        }
+        50%{
+            background-color: blue;
+            font-size: 70px;
+        }
+        75%{
+            background-color: purple;
+            font-size: 90px;
+        }
+      }
+
+      #banner {
+        height: 200px;
+        background-color: darkcyan;
+        padding: 100px;
+        text-align: center;
+        font-size: 100px;
+        color: #fff;
+        animation: mybanner;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="banner">CSS Animation Example</section>
+  </body>
+</html>
