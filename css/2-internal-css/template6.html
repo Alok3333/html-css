@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0px;
+      }
+
+      ul {
+        margin: 0px;
+        background: purple;
+        position: sticky;
+        top: 0;
+      }
+
+      ul li {
+        display: inline-block;
+        padding: 20px 40px 20px;
+      }
+
+      ul li a {
+        color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+      }
+
+      ul li:hover {
+        background: red;
+        cursor: pointer;
+      }
+
+      h1 {
+        font-size: 100px;
+        text-align: center;
+      }
+
+      section {
+        padding: 100px;
+        min-height: 700px;
+        text-align: center;
+      }
+
+      #home {
+        background-color: aqua;
+        color: white;
+      }
+
+      #about {
+        background-color: coral;
+        color: white;
+      }
+
+      #service {
+        background-color: deeppink;
+        color: white;
+      }
+
+      #contact {
+        background-color: yellowgreen;
+        color: white;
+      }
+
+      #product {
+        background-color: yellow;
+        color: #000;
+      }
+
+      footer {
+        bottom: 0;
+        position: fixed;
+        background: #000;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        width: 100%;
+      }
+
+      @keyframes mybanner {
+        25% {
+          background-image: url('./images/a.webp');
+          font-size: 40px;
+        }
+        50% {
+          background-image: url('./images/image1.jpeg');
+          font-size: 70px;
+        }
+        75% {
+          background-image: url('./images/image2.jpg');
+          font-size: 90px;
+        }
+      }
+
+      #banner {
+        height: 400px;
+        background-image: url(./images/image3.jpg);
+        background-size: 100% 100%;
+        padding-top: 200px;
+        text-align: center;
+        font-size: 100px;
+        color: #fff;
+        animation: mybanner;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#service">Our Services</a></li>
+      <li><a href="#contact">Conatct</a></li>
+      <li><a href="#product">My Product</a></li>
+    </ul>
+
+    <section id="banner">Single Page Application</section>
+
+    <section id="home">
+      <h1>Welcome Home</h1>
+    </section>
+
+    <section id="about">
+      <h1>About Us</h1>
+    </section>
+
+    <section id="service">
+      <h1>Our Services</h1>
+    </section>
+
+    <section id="contact">
+      <h1>Conatct Us</h1>
+    </section>
+
+    <section id="product">
+      <h1>My product</h1>
+    </section>
+
+    <footer>
+      <p>Help Center - 9888676765</p>
+    </footer>
+  </body>
+</html>
