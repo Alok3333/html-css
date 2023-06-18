@@ -1,70 +1,98 @@
 <html>
   <head>
     <style>
-      header {
+      .box {
         padding: 20px;
         border: 1px solid black;
+      }
+
+      .box2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 740px;
+        margin: 40px 0px 15px 0;
+      }
+
+      header {
+        padding: 30px;
+        border: 1px solid blue;
         text-align: center;
-        margin-bottom: 10px;
-        font-size: 30px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
       }
 
       nav {
-        font-size: 30px;
-        padding: 15px;
+        padding: 25px;
+        width: 350px;
+        height: 689px;
+        font-size: 20px;
         text-align: center;
-        border: 1px solid black;
-        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid blue;
       }
 
-      div {
+      .sometext {
+        margin-left: 17px;
+        width: 1300px;
+        height: 230px;
+        padding: 25px;
+        font-size: 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid blue;
+      }
+
+      .imgtxt {
         display: flex;
-        flex-wrap: wrap;
+        margin-left: 15px;
       }
 
-      .sec {
-        border: 1px solid black;
-        font-size: 30px;
-        width: 70.8%;
-        height: 290px;
+      .img {
         padding: 20px;
-        margin-bottom: 10px;
-      }
-
-      .art {
-        border: 1px solid black;
-        font-size: 30px;
-        width: 70.8%;
-        height: 300px;
-        padding: 20px;
-      }
-
-      aside {
-        border: 1px solid black;
-        margin-left: 11px;
-        margin-top: -342px;
-        padding: 20px;
-        width: 24%;
-        font-size: 30px;
-      }
-
-      footer {
-        padding: 20px;
-        border: 1px solid black;
+        height: 397px;
+        width: 630px;
+        font-size: 20px;
         text-align: center;
-        margin-top: 10px;
-        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid blue;
+      }
+
+      .txt {
+        margin-left: 15px;
+        padding: 21px;
+        height: 395px;
+        width: 622px;
+        font-size: 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid blue;
       }
     </style>
   </head>
   <body>
-    <header>Header</header>
-    <nav>nav</nav>
-    <div>
-      <div class="sec">Section</div>
-      <div class="art">Article</div>
-      <aside>Aside</aside>
+    <div class="box">
+      <header>THIS IS A HEADER</header>
+
+      <div class="box2">
+        <div class="left">
+          <nav>
+            MENU
+            <p>********</p>
+            <p>********</p>
+            <p>********</p>
+            <p>********</p>
+          </nav>
+        </div>
+        <div class="right">
+          <div class="sometext">
+            <p>SOME TEXT</p>
+          </div>
+          <div class="imgtxt">
+            <p class="img">AN IMAGE</p>
+            <p class="txt">MORE TEXT</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer>footer</footer>
   </body>
 </html>
