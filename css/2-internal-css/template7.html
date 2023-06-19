@@ -1,0 +1,124 @@
+<html>
+  <head>
+    <title>Media Query</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+
+      h1 {
+        text-align: center;
+        color: blue;
+        font-size: 90px;
+      }
+
+      section {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      }
+
+      p {
+        font-size: 32px;
+        color: blue;
+      }
+
+      ul {
+        background-color: brown;
+        margin: 0px;
+      }
+
+      li {
+        display: inline-block;
+        padding: 15px;
+        color: white;
+      }
+
+      /* media query use to find screen width -- very small device*/
+      @media screen and (min-width: 1px) and (max-width: 600px) {
+        h1 {
+          font-size: 30px;
+        }
+
+        section {
+          grid-template-columns: auto;
+        }
+
+        li {
+          padding: 10px;
+          font-size: 14px;
+        }
+      }
+
+      /* for medium device */
+      @media screen and (min-width: 601px) and (max-width: 800px) {
+        h1 {
+          font-size: 45px;
+          color: red;
+        }
+
+        section {
+          grid-template-columns: auto auto;
+        }
+
+        li {
+          padding: 10px;
+          font-size: 20px;
+        }
+      }
+
+      /* for large device */
+      @media screen and (min-width: 801px) and (max-width: 1000px) {
+        h1 {
+          font-size: 60px;
+          color: greenyellow;
+        }
+
+        section {
+          grid-template-columns: auto auto;
+        }
+
+        li {
+          padding: 10px;
+          font-size: 20px;
+        }
+      }
+
+      /* for extra large device */
+      @media screen and (min-width: 1001px) and (max-width: 1200px) {
+        h1 {
+          font-size: 70px;
+          color: purple;
+        }
+
+        section {
+          grid-template-columns: auto auto auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Conatact Us</li>
+      <li>Login</li>
+      <li>Register</li>
+      <li>Product</li>
+    </ul>
+    <h1>CSS Media Query Example</h1>
+    <section>
+      <p>Website Design</p>
+      <p>Mobile App</p>
+      <p>SEO</p>
+      <p>Marketing</p>
+      <p>Logo Design</p>
+      <p>Content Writing</p>
+      <p>Education</p>
+      <p>Employment</p>
+      <p>Payroll</p>
+      <p>Billing</p>
+    </section>
+  </body>
+</html>
