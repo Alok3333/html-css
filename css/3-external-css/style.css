@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 90px;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+p {
+  font-size: 32px;
+  color: blue;
+}
+
+ul {
+  background-color: brown;
+  margin: 0px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+  color: white;
+  font-size: 25px;
+}
+
+/* media query use to find screen width -- very small device*/
+@media screen and (min-width: 1px) and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  section {
+    grid-template-columns: auto;
+  }
+
+  li {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* for medium device */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  h1 {
+    font-size: 45px;
+    color: red;
+  }
+
+  section {
+    grid-template-columns: auto auto;
+  }
+
+  li {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+
+/* for large device */
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  h1 {
+    font-size: 60px;
+    color: greenyellow;
+  }
+
+  section {
+    grid-template-columns: auto auto;
+  }
+
+  li {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+
+/* for extra large device */
+@media screen and (min-width: 1001px) and (max-width: 1200px) {
+  h1 {
+    font-size: 70px;
+    color: purple;
+  }
+
+  section {
+    grid-template-columns: auto auto auto;
+  }
+
+  li {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
