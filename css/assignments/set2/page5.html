@@ -1,104 +1,74 @@
 <html>
   <head>
     <style>
-      h1 {
+      body {
+        margin: 0px;
+      }
+
+      .left {
+        text-align: right;
+        float: left;
+        padding: 40px 35px 40px 45px;
+        height: 91.6%;
+        background-color: rgb(59, 71, 82);
+      }
+
+      .left h1 {
+        color: #fff;
+        margin-top: 300px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .left p {
+        color: lightslategrey;
+        font-size: 30px;
+      }
+
+      .left button {
         text-align: center;
-      }
-
-      hr {
-        height: 1px;
-        background: grey;
-      }
-
-      h2,
-      h3 {
-        text-align: center;
-        padding: 20px;
-      }
-
-      .box1 h3 {
-        color: blue;
-      }
-
-      .box2 h3 {
-        color: green;
-      }
-
-      p {
-        text-align: center;
-        font-size: 18px;
-      }
-
-      .box1 button {
-        display: flex;
-        margin: auto;
-        background: blue;
         padding: 10px;
-        color: white;
-        border: none;
-        font-weight: bold;
-        border-radius: 25px;
+        background: none;
+        border: 2px solid lightslategrey;
+        color: #fff;
       }
 
-      .box2 button {
-        font-weight: bold;
-        display: flex;
-        margin: auto;
-        background: green;
-        padding: 10px;
-        color: white;
-        border: none;
-        border-radius: 25px;
-      }
-
-      .container {
-        display: flex;
-        margin: auto;
-        width: 80%;
-      }
-
-      .box1 {
-        margin: 25px 200px 20px 355px;
-        width: 50%;
-        padding: 50px 10px 50px 10px;
-        border-radius: 20px;
-        border: 2px solid blue;
-      }
-
-      .box2 {
-        margin: 30px 190px 10px 0px;
-        width: 50%;
-        padding: 50px 10px 50px 10px;
-        border-radius: 20px;
-        border: 2px solid green;
+      .right {
+        margin-left: 350px;
+        width: 78%;
       }
     </style>
   </head>
   <body>
-    <h1>Contact Us</h1>
-    <hr />
-    <h2>Have any questions? we'd love to hear from you</h2>
+    <div class="left">
+      <h1>
+        A SAMPLE <br />
+        BLOG
+      </h1>
+      <p>Creating a blog <br />layout using Pure</p>
+      <button type="button">PURE</button>
+      <button type="button">YUI LIBRARY</button>
+    </div>
+    <div class="right">
+      <p class="txt1">PINNED POST</p>
+      <hr />
+      <h1>Introducing Pure</h1>
+      <label>By <span>Tilo Mitra</span> under</label>
+      <button type="button">CSS</button>
+      <button type="button">PURE</button>
+      <p>
+        Yesterday at CSSonf, we launched Pure - a new CSS librery. Phew! Here
+        are the <span>slides from the presentation</span>.Although it looks
+        pretty minimalist, we've been working on Pure for several months. After
+        many iterations, we have released Pure as a set of small, responsive,
+        CSS modules that you can use in every web project.
+      </p>
+      <br />
 
-    <div class="container">
-      <div class="box1">
-        <h2>Customer Care</h2>
-        <p>
-          Our support team is spread all over the world to give you fast
-          response.
-        </p>
-        <button type="submit">Submit a Request</button>
-        <h3>Frequently Asked Questions</h3>
-      </div>
-
-      <div class="box2">
-        <h2>Sales & Marketing</h2>
-        <p>
-          Get in touch with our Sales & Marketing team to see how can work
-          together.
-        </p>
-        <button type="submit">Contact Sales</button>
-        <h3>View Plans</h3>
-      </div>
+      <p class="txt1">RECENT POSTS</p>
+      <hr />
+      <h1>Everything You Need to Know About Grunt</h1>
+      <label>By <span>Eric Ferraiuolo</span> under</label>
+      <button type="button">JAVASCRIPT</button>
     </div>
   </body>
 </html>

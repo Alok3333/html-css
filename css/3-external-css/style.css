@@ -32,6 +32,72 @@ li {
   font-size: 25px;
 }
 
+footer {
+  margin-top: 30px;
+  background-color: rgb(7, 7, 125);
+  padding: 15px 10% 15px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 40% auto auto;
+}
+
+.footerblock {
+  padding: 15px;
+}
+
+footer p {
+  font-size: 17px;
+  color: #fff;
+}
+
+#product {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  text-align: center;
+}
+
+.myproduct img {
+  width: 70%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.info {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+@keyframes mybanner {
+  25% {
+    background-image: url('../assignments/grid-photo/images/img16.jpeg');
+    font-size: 40px;
+  }
+  50% {
+    background-image: url('../assignments/grid-photo/images/img17.jpeg');
+    font-size: 70px;
+  }
+  75% {
+    background-image: url('../assignments/grid-photo/images/img18.jpeg');
+    font-size: 90px;
+  }
+}
+
+#banner {
+  height: 200px;
+  background-image: url(../assignments/grid-photo/images/img20.jpeg);
+  padding: 100px;
+  text-align: center;
+  font-size: 100px;
+  color: #fff;
+  animation: mybanner;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
 /* media query use to find screen width -- very small device*/
 @media screen and (min-width: 1px) and (max-width: 600px) {
   h1 {
@@ -45,6 +111,15 @@ li {
   li {
     padding: 10px;
     font-size: 14px;
+  }
+
+  footer {
+    grid-template-columns: auto;
+  }
+
+  #product {
+    grid-template-columns: auto;
+    width: 100%;
   }
 }
 
@@ -62,6 +137,15 @@ li {
   li {
     padding: 10px;
     font-size: 20px;
+  }
+
+  footer {
+    grid-template-columns: auto auto;
+  }
+
+  #product {
+    grid-template-columns: auto auto;
+    width: 95%;
   }
 }
 
