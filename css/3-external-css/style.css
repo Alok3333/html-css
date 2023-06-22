@@ -98,6 +98,27 @@ footer p {
   animation-iteration-count: infinite;
 }
 
+ul li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+#about {
+  width: 80%;
+  text-align: justify;
+  font-size: 18px;
+  color: black;
+  margin: auto;
+  line-height: 30px;
+}
+
+.aboutphoto {
+  width: 80%;
+  margin: 9%;
+  border-radius: 10px;
+}
+
 /* media query use to find screen width -- very small device*/
 @media screen and (min-width: 1px) and (max-width: 600px) {
   h1 {
