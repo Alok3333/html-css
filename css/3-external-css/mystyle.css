@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+}
+
+#mainmenu {
+  background: black;
+  margin: 0px;
+}
+
+#mainmenu li {
+  display: inline-block;
+  color: #fff;
+  font-size: 25px;
+  padding: 15px 40px 15px;
+}
+
+#mainmenu li:hover {
+  background: orangered;
+  cursor: pointer;
+}
