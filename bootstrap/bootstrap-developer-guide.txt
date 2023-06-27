@@ -1,0 +1,113 @@
+bootstrap is library of css.
+it has collections of pre-defined css classes.
+it use to create responsive webpage without writing any css code.
+the bootstrap in came market in 2011 and it was introduced by twitter.
+
+The bootstrap designed based on grid system.
+The gris system has devided all type of devices in 6 type based on screen width.
+
+
+1. extra small      - 1px to 576px screen width
+2. small device     - 577px to 768px screen width
+3. medium device    - 769px to 992px screen width
+4. large device     - 993px to 1200px screen width
+5. extra large device       - 1201px to 1400px screen width
+6. extra extra large device - 1401px to extra large device
+
+The bootstrap has given 12 pre-defined css classes for each type of device.
+    1. extra small
+        .col-1
+        .col-2
+        .col-3
+        .col-4
+        .col-5
+        .col-6
+        .col-7
+        .col-8
+        .col-9
+        .col-10
+        .col-11
+        .col-12
+
+    2. small device
+        .col-sm-1
+        .col-sm-2
+        .col-sm-3
+        .col-sm-4
+        .col-sm-5
+        .col-sm-6
+        .col-sm-7
+        .col-sm-8
+        .col-sm-9
+        .col-sm-10
+        .col-sm-11
+        .col-sm-12
+
+    3. medium device
+        .col-md-1
+        .col-md-2
+        .col-md-3
+        .col-md-4
+        .col-md-5
+        .col-md-6
+        .col-md-7
+        .col-md-8
+        .col-md-9
+        .col-md-10
+        .col-md-11
+        .col-md-12
+
+    4. large device
+        .col-lg-1
+        .col-lg-2
+        .col-lg-3
+        .col-lg-4
+        .col-lg-5
+        .col-lg-6
+        .col-lg-7
+        .col-lg-8
+        .col-lg-9
+        .col-lg-10
+        .col-lg-11
+        .col-lg-12
+
+    5. extra large device
+        .col-xl-1
+        .col-xl-2
+        .col-xl-3
+        .col-xl-4
+        .col-xl-5
+        .col-xl-6
+        .col-xl-7
+        .col-xl-8
+        .col-xl-9
+        .col-xl-10
+        .col-xl-11
+        .col-xl-12
+
+    6. extra extra lage device
+        .col-xxl-1
+        .col-xxl-2
+        .col-xxl-3
+        .col-xxl-4
+        .col-xxl-5
+        .col-xxl-6
+        .col-xxl-7
+        .col-xxl-8
+        .col-xxl-9
+        .col-xxl-10
+        .col-xxl-11
+        .col-xxl-12
+
+--------------Total - 72 classes in Grid system -----------------
+    while Creating webpage using bootstrap, follow these steps
+        1. link to bootstrap.css file in head section
+        2. follow body tag.
+        3. inside body tag, follow these classes
+            .container - it has margin from left and right
+            .container-fluid - it has no margin like it cover full width of screen
+        4. inside container of container-fluid, follow these classes
+            .row - height is auto and width 100% container or container-fluid
+
+        5. inside .row class, follow columns.
+            =>in each row min 1 column and max 12 column only
