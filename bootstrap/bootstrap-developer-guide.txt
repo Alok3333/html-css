@@ -110,4 +110,8 @@ The bootstrap has given 12 pre-defined css classes for each type of device.
             .row - height is auto and width 100% container or container-fluid
 
         5. inside .row class, follow columns.
-            =>in each row min 1 column and max 12 column only
+            =>in each row min 1 column and max 12 columns only
+
+        Class for Image
+            .img-fluid
+            .img-thumbnail
