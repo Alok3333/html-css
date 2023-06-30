@@ -198,3 +198,31 @@ The bootstrap has given 12 pre-defined css classes for each type of device.
         .list-group-item
         .active
 -----------------------------------------------------------------
+    Classes for card
+        .card
+            .card-header
+            .card-body
+            .card-footer
+-----------------------------------------------------------------
+    Classes for button
+        .btn
+        .btn-info          - skyblue
+        .btn-warning       - yellow
+        .btn-success       - green
+        .btn-primary       - blue
+        .btn-danger        - red
+        .btn-secondary     - grey
+        .btn-white         - white
+        .btn-light         - light
+        .btn-dark          - black
+-----------------------------------------------------------------
+    Classes for input elements
+        .form-control - (text, email, password, number, textarea, file, date)
+        .form-select - (select)
+
+    Input Size
+        .form-control-sm - small height
+        .form-control-md - medium height
+        .form-control-lg - large height
+-----------------------------------------------------------------
+-----------------------------------------------------------------
