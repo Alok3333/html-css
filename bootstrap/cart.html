@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.css">
+    <script src="./bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <section class="bg-light p-2 sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <h1 class="text-danger">Shopping App</h1>
+                </div><!--3 end-->
+
+                <div class="col-lg-3 pt-2">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search here" />
+                        <label class="input-group-text">Search</label>
+                    </div>
+                </div><!--3 end-->
+
+                <div class="col-lg-5 text-end pt-2">
+                    <div class="btn-group">
+                        <a class="btn btn-primary" href="home.html">Home</a>
+                        <a class="btn btn-primary" href="cart.html">My Card</a>
+                        <a class="btn btn-primary" href="register.html">Register</a>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+                    </div>
+                </div><!--5 end-->
+
+            </div>
+        </div><!--container end-->
+    </section> <!--1st section end-->
+
+    <section class="p-5 mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <h1 class="text-center p-3 text-primary">Item in my cart</h1>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th class="text-danger">Item Name</th>
+                            <th class="text-danger">Item Price</th>
+                            <th class="text-danger">Quantity</th>
+                            <th class="text-danger">Total</th>
+                            <th class="text-danger">Photo</th>
+                            <th class="text-danger">Action</th>
+                        </tr>
+                        <tr>
+                            <td>Apple</td>
+                            <td>Rs.300</td>
+                            <td>2kg</td>
+                            <td>Rs.600</td>
+                            <td><img src="./images/programming-wallpapers3.jpg" height="50" width="70"/></td>
+                            <td><button class="btn btn-danger btn-sm">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Mango</td>
+                            <td>Rs.100</td>
+                            <td>2kg</td>
+                            <td>Rs.200</td>
+                            <td><img src="./images/programming-wallpapers3.jpg" height="50" width="70"/></td>
+                            <td><button class="btn btn-danger btn-sm">Delete</button></td>
+                        </tr>
+                        <tr>
+                            <td>Orange</td>
+                            <td>Rs.80</td>
+                            <td>1kg</td>
+                            <td>Rs.80</td>
+                            <td><img src="./images/programming-wallpapers3.jpg" height="50" width="70"/></td>
+                            <td><button class="btn btn-danger btn-sm">Delete</button></td>
+                        </tr>
+                    </table>
+
+                    <div class="text-center mt-4">
+                        <a href="home.html" class="btn btn-primary m-3">Continue Shopping</a>
+                        <button class="btn btn-warning m-3">Pay Now</button>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div>
+    </section><!--2nd section end-->
+
+    <footer class="bg-secondary p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center text-white">Customer Support No - 9896675563</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
