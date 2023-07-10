@@ -29,7 +29,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav me-auto justify-content-center">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item ps-4">
                         <a class="nav-link active" href="#"><i class="fa fa-home"></i>Home</a>
                     </li>
@@ -61,25 +61,38 @@
     <!--nav bar end-->
 
     <div class="container">
-        <h2 class="text-center mt-5 text-primary">Admission List</h2>
+        <h2 class="text-center mt-5 text-primary"><i class="fa fa-rupee"></i>Fee Collection</h2>
         <div class="row mt-4">
-            <div class="col-lg-3">
+            <div class="col">
                 <select class="form-select text-secondary">
                     <option>2020-2021</option>
                 </select>
             </div>
-            <div class="col-lg-3">
+            <div class="col">
                 <select class="form-select text-secondary">
                     <option>All Class</option>
                 </select>
             </div>
-            <div class="col-lg-3">
+            <div class="col">
                 <select class="form-select text-secondary">
                     <option>All Section</option>
                 </select>
             </div>
-            <div class="col-lg-3 d-grid">
-                <button type="button" class="btn btn-primary btn-block"><i class="fa fa-search"></i>Search</button>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Mobile No">
+            </div>
+            <div class="col">
+                <select class="form-select text-secondary">
+                    <option>Months</option>
+                </select>
+            </div>
+            <div class="col">
+                <select class="form-select text-secondary">
+                    <option>Due</option>
+                </select>
+            </div>
+            <div class="col d-grid">
+                <button type="button" class="btn btn-primary btn-block">Search</button>
             </div>
         </div>
         <p class="text-center text-danger mt-4">No Records!</p>
